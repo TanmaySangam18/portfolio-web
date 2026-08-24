@@ -4,22 +4,22 @@ const PRINCIPLES = [
   {
     num: '01',
     title: 'Find the moment someone gives up',
-    body: 'I don’t start with wireframes. I start by locating the exact moment a person quits — the tap that goes nowhere, the fare gate they route around, the message they never send. On BostonOnline the real broken moment wasn’t the gate jump; it was a rider deciding the system was against them. Design the fix for that moment and the screens follow.',
+    body: 'I don’t start with wireframes. I start by locating the exact moment a person quits: the tap that goes nowhere, the fare gate they route around, the message they never send. On BostonOnline the real broken moment wasn’t the gate jump; it was a rider deciding the system was against them. Design the fix for that moment and the screens follow.',
   },
   {
     num: '02',
     title: 'Design the incentive, not the enforcement',
-    body: 'Most products solve behaviour problems by adding friction or punishment. That reliably produces avoidance. The MBTA had a $25M fare-evasion problem framed as enforcement; I reframed riders as participants and built FarePoints — GPS-verified check-ins that made compliance the rewarding path. Same behaviour, inverted incentive.',
+    body: 'Most products solve behavior problems by adding friction or punishment. That reliably produces avoidance. The MBTA had a $25M fare-evasion problem framed as enforcement. I reframed riders as participants and built FarePoints, a system of GPS-verified check-ins that made compliance the rewarding path. Same behavior, inverted incentive.',
   },
   {
     num: '03',
     title: 'Restraint is a feature',
-    body: 'What a product refuses to show is a design decision with more weight than most layouts. On Blip, identities are revealed only when notice is mutual — the entire product is built around what stays hidden. Deciding what not to build, not to surface, and not to notify is where trust is actually earned.',
+    body: 'What a product refuses to show is a design decision with more weight than most layouts. On Blip, identities are revealed only when notice is mutual. The entire product is built around what stays hidden. Deciding what not to build, not to surface, and not to notify is where trust is actually earned.',
   },
   {
     num: '04',
     title: 'Ship it, then watch where people hesitate',
-    body: 'Polished mocks answer fewer questions than a rough build in someone’s hands. I validate structure first and earn the right to refine. The signal I care about isn’t what users say in a test — it’s where they pause, backtrack, or quietly stop returning.',
+    body: 'Polished mocks answer fewer questions than a rough build in someone’s hands. I validate structure first and earn the right to refine. The signal I care about isn’t what users say in a test. It’s where they pause, backtrack, or quietly stop returning.',
   },
 ];
 
@@ -32,15 +32,15 @@ export default function DesignPhilosophy() {
           HOW I DESIGN
         </div>
         <div style={{ fontSize: '0.68rem', fontWeight: 600, letterSpacing: '0.18em', textTransform: 'uppercase', color: '#666' }}>
-          Process · Behavioural design · Product decisions
+          Process · Behavioral design · Product decisions
         </div>
       </div>
 
       {/* Opening statement */}
       <div style={{ maxWidth: '820px', marginBottom: '4rem' }}>
         <p style={{ fontSize: 'clamp(1rem, 1.8vw, 1.3rem)', fontWeight: 500, lineHeight: 1.65, color: '#111' }}>
-          I design from behaviour, not assumption. My work runs from a specific, observed
-          human failure to a shipped product — and because I build what I design, the
+          I design from behavior, not assumption. My work runs from a specific, observed
+          human failure to a shipped product, and because I build what I design, the
           hand-off never loses the argument. Good design is invisible. Bad design is the
           reason people quietly stop showing up.
         </p>

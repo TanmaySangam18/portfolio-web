@@ -112,7 +112,7 @@ export default function Writing() {
             Data Journalism · Pudding.cool Pitch
           </div>
           <div style={{ fontSize: '1.1rem', fontWeight: 700 }}>
-            The Founder Profile — Do LinkedIn career paths predict who starts a company?
+            The Founder Profile: do LinkedIn career paths predict who starts a company?
           </div>
           <div style={{ fontSize: '0.82rem', color: '#555', marginTop: '6px', lineHeight: 1.5 }}>
             Python pipeline analyzing 200+ founder profiles from LinkedIn, Crunchbase, AngelList, and ProductHunt. Pitched as a visual data essay to Pudding.cool.

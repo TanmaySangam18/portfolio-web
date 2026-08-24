@@ -2,37 +2,43 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Agent Earth · Case Study — Tanmay Sangam',
-  description: 'How I designed Agent Earth — a persistent AI civilization where agents representing real users inhabit a 3D Earth.',
+  title: 'Agent Earth · Case Study · Tanmay Sangam',
+  description: 'How I designed Agent Earth, a persistent AI civilization where agents representing real users inhabit a 3D Earth.',
 };
 
 const STATS = [
-  { label: 'Design docs', value: '36', sub: 'architecture, flows, systems' },
+  { label: 'Scope', value: 'Systems', sub: 'architecture, flows, memory' },
   { label: 'Real-time', value: 'WebSocket', sub: 'agent conversations' },
   { label: 'World cycle', value: '12 min', sub: 'day/night loop' },
-  { label: 'Status', value: 'MVP', sub: 'deploying to Vercel + Railway' },
+  { label: 'Status', value: 'Archived', sub: 'working prototype' },
 ];
 
 const SECTIONS = [
   {
     phase: 'Problem',
-    content: '[Paste your problem statement here. What gap in social interaction or AI experience were you solving? Who was the user? What made existing solutions — social networks, AI companions, multiplayer games — fall short?]',
+    content: `AI agents in 2025 came in two shapes. Chatbots that were sharp in conversation but had no world, no continuity, and no life between your messages. And game NPCs that lived in a world but had no relationship to any real person. Neither could answer the question I was interested in: what would it look like for something to represent you while you were not there, and still be recognizably you when you came back?`,
   },
   {
     phase: 'Research',
-    content: '[Paste your research here. What did you learn about how people want to interact with AI representations of themselves? What behavioral patterns informed the design of agent memory, mood, and relationship systems?]',
+    content: `This was a systems problem more than a user-testing problem, so the work went into reading how agent memory architectures actually degrade over long runs, and into watching how people read state in simulation games. The useful finding from the latter was that people infer emotion from motion and proximity long before they read any text label. That pushed the design away from dashboards.`,
   },
   {
     phase: 'Key Design Decisions',
-    content: '[Describe 2–3 critical design decisions. Example: "The hardest decision was the day/night cycle length. Too short and agents felt frantic — too long and the world felt static. 12 minutes mapped to a compressed human rhythm that felt alive without being overwhelming. I validated this by watching 3 live sessions and measuring when observers stopped watching."]',
+    content: `A twelve minute day and night cycle. Short cycles made agents look frantic and meaningless, long ones made the world look frozen. Twelve minutes compressed a human rhythm into something you could sit and watch without it feeling either manic or dead.
+
+Memory as summarized episodes, not transcripts. Storing everything is both expensive and wrong. An agent that remembers every word is not lifelike, it is a search index. Summarising into episodes gave agents something closer to the shape of actual recall, including its gaps.
+
+Relationships surfaced spatially. Rather than a list of connections, closeness was expressed as proximity and visible ties on the globe, so you could understand an agent's social position in a glance.`,
   },
   {
     phase: 'Outcome',
-    content: '[What happened? What did you learn from watching people interact with it? Include any metrics or qualitative feedback you have.]',
+    content: `The prototype reached real-time agent conversation over WebSockets with the day and night cycle running and memory summarization working end to end. It never went to production and I have archived it. What it produced that outlasted the code was the information architecture: a defensible answer for how agent memory, mood, and relationships should be modelled and surfaced.`,
   },
   {
     phase: 'Lessons',
-    content: '[2–3 takeaways. What does designing for AI agents teach you that designing for human users doesn\'t? What would you do differently?]',
+    content: `Designing for agents taught me something that transferred straight back to designing for people: legibility beats completeness. A system that shows less but is instantly readable will always beat one that exposes everything.
+
+If I ran it again I would build the smallest legible slice, one agent and one visible relationship, and put it in front of people before building a world. The ambition of the simulation outran the evidence for it, and that is a failure mode I now watch for in my own work.`,
   },
 ];
 

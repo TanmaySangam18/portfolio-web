@@ -94,16 +94,17 @@ const FEATURED: Project[] = [
 ];
 
 const ARCHIVE: ArchiveItem[] = [
-  { name: 'Bharat Ane Nenu', sub: 'Civic Accountability Dashboard', stack: 'Next.js 15 - TypeScript', status: 'Live', link: 'https://praja-lekka.vercel.app' },
-  { name: 'Kindred', sub: 'Book-Based People Matching', stack: 'HTML - JS - Static', status: 'Live', link: 'https://tanmaysangam18.github.io/kindred/' },
-  { name: 'Tattva.so', sub: 'iOS Attention Mirror', stack: 'React Native - Expo - RevenueCat', status: 'In Development', link: null },
-  { name: 'Simply Done 2.0', sub: 'AI Canvas LMS Companion', stack: 'React - Supabase - Canvas API', status: 'Built - Northeastern', link: null },
-  { name: 'FoundlyHire', sub: 'Personality-Based Hiring', stack: 'React - Supabase - AI Matching', status: 'Demo', link: null },
-  { name: 'RoomieBot', sub: 'AI Household OS', stack: 'React - AI - Gamification', status: 'Built', link: null },
-  { name: 'The Founder Profile', sub: 'Data Journalism Investigation', stack: 'Python - pandas - Data Viz', status: 'Research', link: null },
-  { name: 'RESOLVE', sub: 'Stress Reset PWA', stack: 'PWA - Behavioral UX', status: 'Built', link: null },
-  { name: 'Sangam', sub: 'Offline AI Career Backbone', stack: 'SwiftUI - SwiftData - Ollama', status: 'Prototype', link: null },
-  { name: 'MUTE', sub: 'Creator Safety Platform', stack: 'Gemini - Firebase - Perspective API', status: 'Prototype', link: null },
+  { name: 'Bharat Ane Nenu', sub: 'Civic Accountability Dashboard', stack: 'Next.js 15 · TypeScript', status: 'Live', link: 'https://praja-lekka.vercel.app' },
+  { name: 'FoundlyHire', sub: 'Personality-Based Hiring', stack: 'React · Supabase · AI Matching', status: 'Live', link: 'https://foundly-hire.vercel.app' },
+  { name: 'Boston Deals', sub: 'Opt-In Local Offers', stack: 'Static · JS', status: 'Live', link: 'https://boston-deals-demo.vercel.app' },
+  { name: 'Vizag Console', sub: 'Campaign Operations Console', stack: 'HTML · JS', status: 'Live', link: 'https://tanmaysangam18.github.io/vizag-console/' },
+  { name: 'Mana Visakha', sub: 'Telugu-First Civic Tool', stack: 'HTML · JS · i18n', status: 'Live', link: 'https://tanmaysangam18.github.io/mana-visakha/' },
+  { name: 'Kindred', sub: 'Book-Based People Matching', stack: 'HTML · JS · Static', status: 'Live', link: 'https://tanmaysangam18.github.io/kindred/' },
+  { name: 'Tattva.so', sub: 'iOS Attention Mirror', stack: 'React Native · Expo · RevenueCat', status: 'In Development', link: null },
+  { name: 'Simply Done 2.0', sub: 'AI Canvas LMS Companion', stack: 'React · Supabase · Canvas API', status: 'Built at Northeastern', link: null },
+  { name: 'RoomieBot', sub: 'AI Household OS', stack: 'React · Gamification', status: 'Archived', link: null },
+  { name: 'The Founder Profile', sub: 'Data Journalism Investigation', stack: 'Python · pandas · Data Viz', status: 'Research', link: null },
+  { name: 'MUTE', sub: 'Creator Safety Platform', stack: 'Gemini · Firebase · Perspective API', status: 'Archived', link: null },
 ];
 
 export default function Products() {
@@ -121,7 +122,7 @@ export default function Products() {
         </div>
       </div>
 
-      {/* Featured grid — 2 columns */}
+      {/* Featured grid, 2 columns */}
       <div
         style={{
           display: 'grid',

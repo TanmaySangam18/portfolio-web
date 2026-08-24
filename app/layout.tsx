@@ -17,11 +17,11 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://tanmaysangam.vercel.app"),
-  title: "Tanmay Sangam — Product Designer. Engineer. Product Manager.",
+  title: "Tanmay Sangam · Product Designer, Engineer, Product Manager",
   description:
     "Product designer, engineer, and product manager. I design the product, build it, ship it, and run it. Live products, MBTA-pitched case studies, 588 solo commits. MS Project Management @ Northeastern '26. Open to Product Design, Software Engineering, and Product/Program Management roles.",
   openGraph: {
-    title: "Tanmay Sangam — Product Designer. Engineer. Product Manager.",
+    title: "Tanmay Sangam · Product Designer, Engineer, Product Manager",
     description: "Design it. Build it. Ship it. Run it. Product design + engineering + PM.",
     url: "https://tanmaysangam.vercel.app",
     siteName: "Tanmay Sangam",

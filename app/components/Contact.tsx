@@ -68,7 +68,7 @@ export default function Contact() {
             </div>
           ))}
           <div style={{ marginTop: '1.25rem', padding: '10px 14px', border: '2px solid #000', fontSize: '0.72rem', fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', lineHeight: 1.6 }}>
-            OPT — No sponsorship needed<br />
+            OPT · No sponsorship needed<br />
             No H-1B lottery · Available now
           </div>
         </div>

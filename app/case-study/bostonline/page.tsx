@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'BostonOnline · Case Study — Tanmay Sangam',
+  title: 'BostonOnline · Case Study · Tanmay Sangam',
   description: 'How I built and pitched a behavioral science-backed fare compliance platform to MBTA directors.',
 };
 
@@ -17,10 +17,10 @@ const STATS = [
 
 const TIMELINE = [
   { phase: 'Discovery', detail: 'Researched MBTA fare evasion data, rider behavior patterns, and existing compliance enforcement approaches. Identified the core failure: enforcement is punitive, not motivating.' },
-  { phase: 'Behavioral Thesis', detail: 'Applied behavioral science frameworks — loss aversion, social proof, reward scheduling — to design a system that makes compliance feel rewarding rather than obligatory. Modeled after loyalty programs, not fines.' },
+  { phase: 'Behavioral Thesis', detail: 'Applied behavioral science frameworks: loss aversion, social proof, reward scheduling, to design a system that makes compliance feel rewarding rather than obligatory. Modeled after loyalty programs, not fines.' },
   { phase: 'Product Architecture', detail: 'Designed a three-sided marketplace: riders earn FarePoints for tapping in, redeem at local businesses, and MBTA gets real-time compliance data with GPS-verified check-ins and haversine geofencing.' },
   { phase: 'Build', detail: 'Directed the full-stack build using Claude Code: Next.js 16, Expo SDK 54, Drizzle ORM, Neon PostgreSQL, Clerk Auth, Turborepo monorepo. 10 API routes, 8 database tables, fraud detection system. Zero external engineers.' },
-  { phase: 'Pitch Preparation', detail: 'Wrote the enterprise proposal, built the one-pager, and prepared a live demo. Framed the pilot as a zero-cost 90-day test on the Green Line — eliminating budget risk as an objection.' },
+  { phase: 'Pitch Preparation', detail: 'Wrote the enterprise proposal, built the one-pager, and prepared a live demo. Framed the pilot as a zero-cost 90-day test on the Green Line, eliminating budget risk as an objection.' },
   { phase: 'MBTA Presentation', detail: 'Formally presented to MBTA department directors. The proposal was received and reviewed at the leadership level. Enterprise proposal and live demo both delivered.' },
 ];
 
@@ -35,14 +35,11 @@ export default function BostonlineCaseStudy() {
         >
           ← Back to work
         </Link>
-        <a
-          href="https://web-pi-lyart-82.vercel.app/demo"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ fontSize: '0.7rem', fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', color: '#fff', background: '#000', padding: '8px 18px', textDecoration: 'none' }}
+        <span
+          style={{ fontSize: '0.65rem', fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase', color: '#888' }}
         >
-          View live demo →
-        </a>
+          Demo access on request
+        </span>
       </div>
 
       {/* Hero */}
@@ -62,7 +59,7 @@ export default function BostonlineCaseStudy() {
           BOSTON<br />ONLINE.
         </div>
         <p style={{ fontSize: 'clamp(1rem, 1.8vw, 1.3rem)', fontWeight: 500, lineHeight: 1.65, maxWidth: '700px', color: '#333' }}>
-          A three-sided fare compliance platform that turns MBTA riders into participants — not violators. Built with no engineering team. Formally presented to MBTA department directors.
+          A three-sided fare compliance platform that turns MBTA riders into participants, not violators. Built with no engineering team. Formally presented to MBTA department directors.
         </p>
       </div>
 
@@ -91,10 +88,10 @@ export default function BostonlineCaseStudy() {
             $25M WALKS OUT THE DOOR EVERY YEAR.
           </div>
           <p style={{ fontSize: '0.9rem', lineHeight: 1.75, color: '#333' }}>
-            MBTA loses over $25 million annually to fare evasion. The current enforcement strategy — fines, gate jumping prevention, fare inspectors — is punitive and expensive. It treats riders as suspects rather than participants. The evasion rate hasn&apos;t meaningfully declined.
+            MBTA loses over $25 million annually to fare evasion. The current enforcement strategy of fines, gate jumping prevention, fare inspectors, is punitive and expensive. It treats riders as suspects rather than participants. The evasion rate hasn&apos;t meaningfully declined.
           </p>
           <p style={{ fontSize: '0.9rem', lineHeight: 1.75, color: '#333', marginTop: '1rem' }}>
-            The real problem isn&apos;t that riders are dishonest. It&apos;s that the system gives them no reason to comply beyond fear of getting caught — and the catch rate is low enough that the gamble feels worth it.
+            The real problem isn&apos;t that riders are dishonest. It&apos;s that the system gives them no reason to comply beyond fear of getting caught, and the catch rate is low enough that the gamble feels worth it.
           </p>
         </div>
         <div style={{ padding: '4rem 2rem' }}>
@@ -103,7 +100,7 @@ export default function BostonlineCaseStudy() {
             MAKE COMPLIANCE THE REWARD.
           </div>
           <p style={{ fontSize: '0.9rem', lineHeight: 1.75, color: '#333' }}>
-            Behavioral science is clear: punishment suppresses behavior in the short term but doesn&apos;t build habits. Reward scheduling — specifically variable ratio reinforcement — builds durable behavior patterns. Starbucks, Duolingo, and every successful loyalty program is built on this.
+            Behavioral science is clear: punishment suppresses behavior in the short term but doesn&apos;t build habits. Reward scheduling, specifically variable ratio reinforcement, builds durable behavior patterns. Starbucks, Duolingo, and every successful loyalty program is built on this.
           </p>
           <p style={{ fontSize: '0.9rem', lineHeight: 1.75, color: '#333', marginTop: '1rem' }}>
             BostonOnline flips the model: riders earn FarePoints for tapping in. FarePoints redeem at local Boston businesses. MBTA gets compliance data. Businesses get foot traffic. The rider gets rewarded for doing the right thing.
@@ -158,17 +155,15 @@ export default function BostonlineCaseStudy() {
             SEE IT LIVE.
           </div>
           <p style={{ fontSize: '0.88rem', color: '#aaa', lineHeight: 1.6, maxWidth: '500px', margin: 0 }}>
-            Full working demo with three user flows: rider, local business, and MBTA admin dashboard. All live on Vercel.
+            Three complete user flows built and running: rider, local business, and MBTA admin dashboard. The deployment is access-controlled, but I am happy to walk through it live.
           </p>
         </div>
         <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
           <a
-            href="https://web-pi-lyart-82.vercel.app/demo"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="mailto:tanmaysangam018@gmail.com?subject=BostonOnline%20demo%20walkthrough"
             style={{ fontSize: '0.7rem', fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: '#000', background: '#fff', padding: '12px 24px', textDecoration: 'none' }}
           >
-            Live demo →
+            Request a walkthrough →
           </a>
           <Link
             href="/#work"

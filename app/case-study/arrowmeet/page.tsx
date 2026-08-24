@@ -2,37 +2,43 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'ArrowMeet · Case Study — Tanmay Sangam',
-  description: 'How I designed ArrowMeet — an iOS dating app built for real-world connections at events and campuses.',
+  title: 'ArrowMeet · Case Study · Tanmay Sangam',
+  description: 'How I designed ArrowMeet, an iOS social discovery app built for real-world connection at events and campuses.',
 };
 
 const STATS = [
   { label: 'Platform', value: 'iOS', sub: 'SwiftUI · iPhone 17 Pro Simulator' },
-  { label: 'Status', value: 'App Store', sub: 'ready for submission' },
+  { label: 'Status', value: 'Archived', sub: 'working simulator build' },
   { label: 'Revenue model', value: 'Subscription', sub: 'RevenueCat paywall' },
-  { label: 'Build scope', value: '55 files', sub: 'Swift · App Clip · Dynamic Island' },
+  { label: 'Build scope', value: 'App Clip', sub: 'Swift · Live Activity · paywall' },
 ];
 
 const SECTIONS = [
   {
     phase: 'Problem',
-    content: '[Paste your problem statement here. What user problem were you solving? Who was the target user? What existing solutions failed them and why?]',
+    content: `At an event or on a campus you are surrounded by people you would genuinely want to meet, and almost nobody speaks. The blocker is not access, it is the social cost of being the one who approaches. Dating apps had optimized for the opposite situation: swiping through strangers who are nowhere near you, later. Nothing was built for the room you are standing in right now.`,
   },
   {
     phase: 'Research',
-    content: '[Paste your research findings here. What did users tell you? What behaviors did you observe? What assumptions did your research confirm or kill?]',
+    content: `I want to be straight about this: I did not run formal user studies. What I had was repeated observation from running events for three thousand people. The pattern that mattered most was how fast people abandon anything that asks them to install an app while they are standing in a crowd. That single behavior shaped the whole entry flow.`,
   },
   {
     phase: 'Key Design Decisions',
-    content: '[Describe the 2–3 most important design decisions you made. For each: what were the options, what did you choose, and why? Example: "I chose App Clip over a full onboarding flow because first-time users at events needed sub-30-second access — a full download was a conversion killer."]',
+    content: `App Clip instead of a full download. A first-time user at an event needs to be inside the experience in under thirty seconds, and a trip to the App Store is where that intent dies. The Clip carried the cost of a smaller feature set in exchange for actually converting.
+
+Presence as a Live Activity, not an open app. Requiring someone to hold their phone up and stare at a screen defeats the point of a product about the room you are in. Putting state in the Dynamic Island let the app stay useful while it was in a pocket.
+
+Paywall after the first match, never at onboarding. Charging before delivering anything is how you teach a user that the product does not believe in itself.`,
   },
   {
     phase: 'Outcome',
-    content: '[What happened? Metrics, feedback, or ready-state. Example: "App Store ready. RevenueCat paywall shipped. Dynamic Island integration complete. Ready for submission pending Apple Dev account."]',
+    content: `The build reached a working simulator state with all three systems running: App Clip entry, Live Activity presence, and a RevenueCat subscription paywall. It was never submitted to the App Store, and I have since archived the project and taken the source private. I would rather say that plainly than dress up a prototype as a launch.`,
   },
   {
     phase: 'Lessons',
-    content: '[2–3 takeaways from this project. What would you do differently? What design principle did this project teach you?]',
+    content: `The App Clip decision is the one that generalises. Wherever there is a gap between intent and access, the interface should be measured in seconds, not features.
+
+The thing I would do differently is validate the social premise before building the iOS surface. I built a good answer to a question I had not yet confirmed people were asking. That is the mistake I now design against first, and it is why my later work starts from observed behavior rather than a feature idea.`,
   },
 ];
 
@@ -47,14 +53,11 @@ export default function ArrowMeetCaseStudy() {
         >
           ← Back to work
         </Link>
-        <a
-          href="https://github.com/TanmaySangam18/Arrow-Meet"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ fontSize: '0.7rem', fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', color: '#fff', background: '#000', padding: '8px 18px', textDecoration: 'none' }}
+        <span
+          style={{ fontSize: '0.65rem', fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase', color: '#888' }}
         >
-          GitHub →
-        </a>
+          Source private
+        </span>
       </div>
 
       {/* Hero */}
@@ -74,7 +77,7 @@ export default function ArrowMeetCaseStudy() {
           ARROW<br />MEET.
         </div>
         <p style={{ fontSize: 'clamp(1rem, 1.8vw, 1.3rem)', fontWeight: 500, lineHeight: 1.65, maxWidth: '700px', color: '#333' }}>
-          An iOS dating app designed for real-world connections — at events, on campuses, in the moments when proximity is already doing the work. Full subscription paywall, App Clip, Dynamic Island, Live Activity.
+          An iOS social discovery app designed for real-world connection: at events, on campuses, in the moments when proximity is already doing the work. Full subscription paywall, App Clip, Dynamic Island, Live Activity.
         </p>
       </div>
 
@@ -129,17 +132,15 @@ export default function ArrowMeetCaseStudy() {
             SEE THE CODE.
           </div>
           <p style={{ fontSize: '0.88rem', color: '#aaa', lineHeight: 1.6, maxWidth: '500px', margin: 0 }}>
-            Full SwiftUI codebase — 55 files, App Clip, Dynamic Island, RevenueCat paywall.
+            SwiftUI codebase covering the App Clip, Dynamic Island Live Activity, and RevenueCat paywall. Source is private, but I am happy to walk through the design decisions.
           </p>
         </div>
         <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
           <a
-            href="https://github.com/TanmaySangam18/Arrow-Meet"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="mailto:tanmaysangam018@gmail.com?subject=ArrowMeet%20code%20walkthrough"
             style={{ fontSize: '0.7rem', fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: '#000', background: '#fff', padding: '12px 24px', textDecoration: 'none' }}
           >
-            GitHub →
+            Request a walkthrough →
           </a>
           <Link
             href="/#work"

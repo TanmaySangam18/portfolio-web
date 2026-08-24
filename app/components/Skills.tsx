@@ -131,7 +131,7 @@ export default function Skills() {
         ))}
       </div>
 
-      {/* Certifications — only design-relevant */}
+      {/* Certifications, design-relevant only */}
       <div style={{ marginTop: '4rem', borderTop: '2px solid #000', paddingTop: '3rem' }}>
         <div style={{ fontSize: '0.68rem', fontWeight: 700, letterSpacing: '0.18em', textTransform: 'uppercase', color: '#666', marginBottom: '1.5rem' }}>
           Relevant Certifications

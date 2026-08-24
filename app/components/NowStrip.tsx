@@ -1,11 +1,11 @@
 'use client';
 
 const NOW_ITEMS = [
-  { label: 'Building', value: 'Agent Earth — persistent AI civilization on Three.js' },
-  { label: 'Deploying', value: 'ArrowMeet iOS — dating app, App Store submission prep' },
-  { label: 'Writing', value: 'The Polygon — 4× monthly, newsletter #16 live' },
-  { label: 'Open to', value: 'PM / BA / Ops / CoS roles — available now, no sponsorship needed' },
-  { label: 'Pitching', value: 'The Founder Profile data essay to Pudding.cool' },
+  { label: 'Building', value: 'competitor.inc, an AI org that ships and runs real software' },
+  { label: 'Designing', value: 'A consent-first way for strangers on the T to actually connect' },
+  { label: 'Writing', value: 'The Polygon, 4× monthly on tech, design and behavior' },
+  { label: 'Open to', value: 'Product design, engineering and PM roles. Available now.' },
+  { label: 'Based in', value: 'Boston, MA' },
 ];
 
 export default function NowStrip() {

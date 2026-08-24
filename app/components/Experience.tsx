@@ -28,7 +28,7 @@ const ROLES = [
     location: 'Boston, MA',
     bullets: [
       'Ran 3+ product workshops for 150+ students; owned activation strategy and performance reporting to Adobe\'s national brand team',
-      'Primary liaison between student communities and Adobe\'s central operations — coordinated cross-functionally on communications, logistics, and engagement metrics',
+      'Primary liaison between student communities and Adobe\'s central operations. Coordinated cross-functionally on communications, logistics, and engagement metrics',
     ],
   },
   {
@@ -37,8 +37,8 @@ const ROLES = [
     period: 'Jun 2023 – May 2024',
     location: 'Remote',
     bullets: [
-      'Partnered with CEO across 10+ client consulting engagements — contributed to business case development, project scoping, and strategic recommendations for a boutique I/O consulting firm',
-      'Built firm\'s recruiting and onboarding pipeline from scratch: intake criteria, evaluation rubrics, structured onboarding for 5+ hires — reduced ramp time ~50%',
+      'Partnered with CEO across 10+ client consulting engagements, contributing to business case development, project scoping, and strategic recommendations for a boutique I/O consulting firm',
+      'Built firm\'s recruiting and onboarding pipeline from scratch: intake criteria, evaluation rubrics, structured onboarding for 5+ hires, which cut ramp time ~50%',
       'Applied I/O psychology and organizational assessment frameworks to 3+ client engagements; produced analytical reports delivered with zero revision requests',
     ],
   },
@@ -58,19 +58,19 @@ const ROLES = [
     period: 'Jul 2022 – Jun 2023',
     location: 'Visakhapatnam, India',
     bullets: [
-      'Managed end-to-end operations for 3 large-scale events serving 3,000+ participants on a $15K budget — owned planning, vendor coordination, 5+ cross-functional teams, and post-event reporting',
+      'Managed end-to-end operations for 3 large-scale events serving 3,000+ participants on a $15K budget. Owned planning, vendor coordination, 5+ cross-functional teams, and post-event reporting',
       'Identified and closed Red Bull as first-ever brand activation partner via cold outreach; developed the business case and managed the partnership end-to-end',
       'Built unified logistics and documentation system adopted across all teams; tracked performance metrics and surfaced improvements across 3 concurrent workstreams',
     ],
   },
   {
     title: 'Stakeholder Relations Coordinator',
-    org: 'GITAM University — External Relations',
+    org: 'GITAM University, External Relations',
     period: 'Jul 2022 – Jun 2023',
     location: 'Visakhapatnam, India',
     bullets: [
       'Managed institutional stakeholder communications and external partnership coordination under the Deputy Director for External & Alumni Relations',
-      'Served as 1 of 7 operational leads at GITAM Homecoming 2022 — coordinated logistics, stakeholder alignment, and cross-team execution for the university\'s flagship annual event',
+      'Served as 1 of 7 operational leads at GITAM Homecoming 2022, coordinating logistics, stakeholder alignment, and cross-team execution for the university\'s flagship annual event',
     ],
   },
   {
@@ -79,7 +79,7 @@ const ROLES = [
     period: 'Apr 2022 – Jun 2023',
     location: 'Visakhapatnam, India',
     bullets: [
-      'Scaled organization from 50 to 200 members in 12 months — built engagement system, onboarding infrastructure, and monthly programming cadence from zero',
+      'Scaled organization from 50 to 200 members in 12 months by building engagement system, onboarding infrastructure, and monthly programming cadence from zero',
       'Tracked retention and engagement metrics; maintained 80%+ attendance across 4× monthly events; formal onboarding reduced ramp time ~50%',
     ],
   },
@@ -107,7 +107,7 @@ const EDUCATION = [
     school: 'GITAM University',
     period: '2019 – 2023',
     location: 'Visakhapatnam, India',
-    note: 'GITAM Young Leadership Program — 1 of 70 selected from hundreds across 3 campuses',
+    note: 'GITAM Young Leadership Program, 1 of 70 selected from hundreds across 3 campuses',
   },
 ];
 

@@ -76,7 +76,7 @@ const FEATURED: Project[] = [
     role: 'Product + design + iOS implementation',
   },
   {
-    num: '04',
+    num: '05',
     name: 'Agent Earth',
     sub: 'Persistent AI Civilization',
     tags: ['Product Strategy', 'AI/ML', 'Systems Design'],
@@ -100,6 +100,9 @@ const ARCHIVE: ArchiveItem[] = [
   { name: 'Vizag Console', sub: 'Campaign Operations Console', stack: 'HTML · JS', status: 'Live', link: 'https://tanmaysangam18.github.io/vizag-console/' },
   { name: 'Mana Visakha', sub: 'Telugu-First Civic Tool', stack: 'HTML · JS · i18n', status: 'Live', link: 'https://tanmaysangam18.github.io/mana-visakha/' },
   { name: 'Kindred', sub: 'Book-Based People Matching', stack: 'HTML · JS · Static', status: 'Live', link: 'https://tanmaysangam18.github.io/kindred/' },
+  { name: 'Threshold', sub: 'Goal-First Ad Relevance Gate', stack: 'Next.js · TypeScript', status: 'Live', link: 'https://threshold-psi-henna.vercel.app' },
+  { name: 'The Door', sub: 'Bar for AI Agents + Humans', stack: 'HTML · JS · Node', status: 'Live', link: 'https://the-door-kohl.vercel.app' },
+  { name: 'September', sub: 'Boston Civic Data Site', stack: 'Node · Static · Open Data', status: 'Live', link: 'https://september-ten.vercel.app' },
   { name: 'Tattva.so', sub: 'iOS Attention Mirror', stack: 'React Native · Expo · RevenueCat', status: 'In Development', link: null },
   { name: 'Simply Done 2.0', sub: 'AI Canvas LMS Companion', stack: 'React · Supabase · Canvas API', status: 'Built at Northeastern', link: null },
   { name: 'RoomieBot', sub: 'AI Household OS', stack: 'React · Gamification', status: 'Archived', link: null },
@@ -118,7 +121,7 @@ export default function Products() {
           WORK
         </div>
         <div style={{ fontSize: '0.68rem', fontWeight: 600, letterSpacing: '0.18em', textTransform: 'uppercase', color: '#666' }}>
-          Featured · 3 PM case studies · 9 products shipped
+          Featured · 3 case studies · 2 live products · MBTA directors pitched
         </div>
       </div>
 
